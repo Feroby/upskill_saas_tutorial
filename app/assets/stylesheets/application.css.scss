@@ -54,6 +54,17 @@
     }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 3px solid white;
+    &:hover, &:focus {
+        background-color: #155799;
+    }
+}
+
 // Typography styles */
  h1, h2, h3 {
      font-family: 'Open Sans', sans-serif; 
